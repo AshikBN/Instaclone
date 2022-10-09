@@ -1,4 +1,5 @@
 import "./PostHeader.css";
+import edit from "../imgs/edit.svg";
 const PostHeader = ({ data }) => {
   return (
     <div className="PostHeader">
@@ -7,11 +8,7 @@ const PostHeader = ({ data }) => {
         <p className="UserLocation">{data.location}</p>
       </div>
       <div className="postEditBtn">
-        <div></div>
-
-        <div></div>
-
-        <div></div>
+        <img src={edit} alt="" />
       </div>
     </div>
   );

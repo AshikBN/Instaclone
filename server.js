@@ -14,8 +14,8 @@ app.use(express.json());
 app.get(
   "/getPosts",
   asychHandler(async (req, res) => {
-    const posts = await Post.find({});
-
+    const posts = await Post.find({}).sort({ createdAt: -1 });
+    console.log(posts);
     res.status(200).json(posts);
   })
 );

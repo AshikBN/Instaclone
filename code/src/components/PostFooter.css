@@ -3,20 +3,21 @@
 }
 
 .shareBtn{
-    height: 20px;
-    margin-top: 8px;
-    
+    height: 30px;
+        margin-top: 4px;
+        margin-left: 10px;
 }
 .likeBtn{
     margin-left: 20px;
     width: 30px;
     height: 30px;
+
 }
 .uploadDate{
-    margin: 5px 20px 0px 330px;
-    color: #706f85;
-    font-weight: 600;
-    font-size: 15px;
+margin: 5px 20px 0px 315px;
+    color: #362d2c;
+    font-weight: 800;
+    font-size: 19px;
     
 }
 .likes {
@@ -26,12 +27,13 @@
     color: #de3535;
     font-weight: 700;
     margin-top: 5px;
+    font-size: 18px;
 }
 
 .caption {
         text-align: left;
         margin-left: 20px;
-        font-size: 1.1rem;
+        font-size: 1.4rem;
         font-weight: 700;
         margin-top: 5px;
     }

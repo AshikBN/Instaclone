@@ -69,11 +69,11 @@ const PostForm = () => {
       image,
     });
 
-    navigate("/postview");
+    navigate("/postview", { replace: true });
   };
   return (
     <div>
-      <form className="post-form">
+      <div className="post-form">
         <div className="form1">
           <input
             type={"file"}
@@ -111,7 +111,7 @@ const PostForm = () => {
           <br />
           <button onClick={postData}>Post</button>
         </div>
-      </form>
+      </div>
     </div>
   );
 };

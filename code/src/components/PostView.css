@@ -1,0 +1,45 @@
+.site-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: #faf8ff;
+
+}
+
+html {
+    font-size: 14px;
+}
+
+body {
+    line-height: 1.5;
+    color: black;
+    margin: 0;
+}
+
+/* .Posts {
+    display: inherit;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+} */
+
+header{
+    display: flex;
+    justify-content: space-around;
+    
+    border: 1px solid green;
+}
+
+.LogoName{
+    font-size:30px;
+    color: darkgreen;
+    margin:6px;
+}
+.camera{
+height: 40px;
+    width: 40px;
+    margin-top: 5px;
+}
+.logo{
+    height: 50px;
+}

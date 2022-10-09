@@ -1,0 +1,42 @@
+.Icons{
+    display: flex;
+}
+
+.shareBtn{
+    height: 20px;
+    margin-top: 8px;
+    
+}
+.likeBtn{
+    margin-left: 20px;
+    width: 30px;
+    height: 30px;
+}
+.uploadDate{
+    margin: 5px 20px 0px 330px;
+    color: #706f85;
+    font-weight: 600;
+    font-size: 15px;
+    
+}
+.likes {
+    text-align: left;
+    margin-left: 20px;
+   
+    color: #de3535;
+    font-weight: 700;
+    margin-top: 5px;
+}
+
+.caption {
+        text-align: left;
+        margin-left: 20px;
+        font-size: 1.1rem;
+        font-weight: 700;
+        margin-top: 5px;
+    }
+
+.PostFooter{
+    margin-bottom: 8px;
+    padding-bottom: 10px;
+}
